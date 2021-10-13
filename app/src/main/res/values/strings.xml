@@ -13,7 +13,7 @@
     <string name="true_button">True</string>
     <string name="false_button">False</string>
   <string name="next_button">Next</string>
-
+<!-- Added anohter comment -->
     <string name="previous_button">Previous</string>
     <string name="no_prev_button">No Previous entry!</string>
     <string name="correct_toast">Correct!</string>
