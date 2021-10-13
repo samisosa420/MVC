@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
-
+    <!-- NEW comment to reflect on github -->
     <TextView
         android:id="@+id/question_text_view"
 
