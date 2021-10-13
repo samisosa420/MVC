@@ -50,8 +50,13 @@ class MainActivity : AppCompatActivity() {
             updateQuestion()
         }
         previousButton.setOnClickListener { view: View ->
-            currentIndex = (currentIndex + 1) % questionBank.size
-            updateQuestion()
+            if (currentIndex == 0)
+            {
+                Toast.makeText(this, R.string.no_prev_button, Toast.LENGTH_SHORT).show()
+            } else {
+                currentIndex = (currentIndex - 1) % questionBank.size
+                updateQuestion()
+            }
         }
 
         questionTextView.setOnClickListener{ view: View ->
